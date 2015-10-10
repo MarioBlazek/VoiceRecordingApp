@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA68DB441BC9382300DB3368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB431BC9382300DB3368 /* AppDelegate.swift */; };
+		EA68DB461BC9382300DB3368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB451BC9382300DB3368 /* ViewController.swift */; };
+		EA68DB491BC9382300DB3368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB471BC9382300DB3368 /* Main.storyboard */; };
+		EA68DB4B1BC9382300DB3368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB4A1BC9382300DB3368 /* Assets.xcassets */; };
+		EA68DB4E1BC9382300DB3368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB4C1BC9382300DB3368 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA68DB401BC9382300DB3368 /* Darth Vader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darth Vader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA68DB431BC9382300DB3368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA68DB451BC9382300DB3368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA68DB481BC9382300DB3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA68DB4A1BC9382300DB3368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA68DB4D1BC9382300DB3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA68DB4F1BC9382300DB3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA68DB3D1BC9382300DB3368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA68DB371BC9382300DB3368 = {
+			isa = PBXGroup;
+			children = (
+				EA68DB421BC9382300DB3368 /* Darth Vader */,
+				EA68DB411BC9382300DB3368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA68DB411BC9382300DB3368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA68DB401BC9382300DB3368 /* Darth Vader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA68DB421BC9382300DB3368 /* Darth Vader */ = {
+			isa = PBXGroup;
+			children = (
+				EA68DB431BC9382300DB3368 /* AppDelegate.swift */,
+				EA68DB451BC9382300DB3368 /* ViewController.swift */,
+				EA68DB471BC9382300DB3368 /* Main.storyboard */,
+				EA68DB4A1BC9382300DB3368 /* Assets.xcassets */,
+				EA68DB4C1BC9382300DB3368 /* LaunchScreen.storyboard */,
+				EA68DB4F1BC9382300DB3368 /* Info.plist */,
+			);
+			path = "Darth Vader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA68DB3F1BC9382300DB3368 /* Darth Vader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA68DB521BC9382300DB3368 /* Build configuration list for PBXNativeTarget "Darth Vader" */;
+			buildPhases = (
+				EA68DB3C1BC9382300DB3368 /* Sources */,
+				EA68DB3D1BC9382300DB3368 /* Frameworks */,
+				EA68DB3E1BC9382300DB3368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Darth Vader";
+			productName = "Darth Vader";
+			productReference = EA68DB401BC9382300DB3368 /* Darth Vader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA68DB381BC9382300DB3368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Marek;
+				TargetAttributes = {
+					EA68DB3F1BC9382300DB3368 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EA68DB3B1BC9382300DB3368 /* Build configuration list for PBXProject "Darth Vader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA68DB371BC9382300DB3368;
+			productRefGroup = EA68DB411BC9382300DB3368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA68DB3F1BC9382300DB3368 /* Darth Vader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA68DB3E1BC9382300DB3368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA68DB4E1BC9382300DB3368 /* LaunchScreen.storyboard in Resources */,
+				EA68DB4B1BC9382300DB3368 /* Assets.xcassets in Resources */,
+				EA68DB491BC9382300DB3368 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA68DB3C1BC9382300DB3368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA68DB461BC9382300DB3368 /* ViewController.swift in Sources */,
+				EA68DB441BC9382300DB3368 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA68DB471BC9382300DB3368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA68DB481BC9382300DB3368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA68DB4C1BC9382300DB3368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA68DB4D1BC9382300DB3368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA68DB501BC9382300DB3368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA68DB511BC9382300DB3368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA68DB531BC9382300DB3368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Darth Vader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marek.Darth-Vader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA68DB541BC9382300DB3368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Darth Vader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marek.Darth-Vader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA68DB3B1BC9382300DB3368 /* Build configuration list for PBXProject "Darth Vader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA68DB501BC9382300DB3368 /* Debug */,
+				EA68DB511BC9382300DB3368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA68DB521BC9382300DB3368 /* Build configuration list for PBXNativeTarget "Darth Vader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA68DB531BC9382300DB3368 /* Debug */,
+				EA68DB541BC9382300DB3368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA68DB381BC9382300DB3368 /* Project object */;
+}
