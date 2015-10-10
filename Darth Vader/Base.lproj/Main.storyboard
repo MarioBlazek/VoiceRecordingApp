@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UuK-Qn-LKr">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Record-->
@@ -58,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="1055" y="267"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Sounds View Controller-->
         <scene sceneID="PNx-HZ-ys5">
             <objects>
-                <viewController id="Mlt-tj-Nul" sceneMemberID="viewController">
+                <viewController id="Mlt-tj-Nul" customClass="PlaySoundsViewController" customModule="Darth_Vader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="52f-Qh-DUg"/>
                         <viewControllerLayoutGuide type="bottom" id="Tz9-Sp-Ukx"/>
@@ -69,7 +70,37 @@
                     <view key="view" contentMode="scaleToFill" id="HoU-69-Oe7">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7b-DF-wem">
+                                <rect key="frame" x="50" y="114" width="100" height="100"/>
+                                <state key="normal" image="Slow"/>
+                                <connections>
+                                    <action selector="playSlow:" destination="Mlt-tj-Nul" eventType="touchUpInside" id="Nna-5x-Nko"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DGY-Ol-LKh">
+                                <rect key="frame" x="450" y="114" width="100" height="100"/>
+                                <state key="normal" image="Fast"/>
+                                <connections>
+                                    <action selector="playFast:" destination="Mlt-tj-Nul" eventType="touchUpInside" id="Kme-tT-Um9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XD-WQ-6xD">
+                                <rect key="frame" x="275" y="460" width="50" height="50"/>
+                                <state key="normal" image="Stop"/>
+                                <connections>
+                                    <action selector="stop:" destination="Mlt-tj-Nul" eventType="touchUpInside" id="Yen-sw-aGB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9XD-WQ-6xD" firstAttribute="centerX" secondItem="HoU-69-Oe7" secondAttribute="centerX" id="A44-aU-nuY"/>
+                            <constraint firstItem="DGY-Ol-LKh" firstAttribute="top" secondItem="52f-Qh-DUg" secondAttribute="bottom" constant="50" id="Da4-74-Loa"/>
+                            <constraint firstItem="A7b-DF-wem" firstAttribute="top" secondItem="52f-Qh-DUg" secondAttribute="bottom" constant="50" id="Hab-03-o9J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DGY-Ol-LKh" secondAttribute="trailing" constant="30" id="IOf-VD-Bsr"/>
+                            <constraint firstItem="A7b-DF-wem" firstAttribute="leading" secondItem="HoU-69-Oe7" secondAttribute="leadingMargin" constant="30" id="mL0-OT-8U3"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nF8-k8-M9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -96,7 +127,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Fast" width="100" height="100"/>
         <image name="Microphone" width="100" height="100"/>
+        <image name="Slow" width="100" height="100"/>
         <image name="Stop" width="50" height="50"/>
     </resources>
 </document>
