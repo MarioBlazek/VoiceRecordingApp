@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		EA68DB441BC9382300DB3368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB431BC9382300DB3368 /* AppDelegate.swift */; };
-		EA68DB461BC9382300DB3368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB451BC9382300DB3368 /* ViewController.swift */; };
+		EA68DB461BC9382300DB3368 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB451BC9382300DB3368 /* RecordSoundsViewController.swift */; };
 		EA68DB491BC9382300DB3368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB471BC9382300DB3368 /* Main.storyboard */; };
 		EA68DB4B1BC9382300DB3368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB4A1BC9382300DB3368 /* Assets.xcassets */; };
 		EA68DB4E1BC9382300DB3368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB4C1BC9382300DB3368 /* LaunchScreen.storyboard */; };
 		EA68DB561BC94E3900DB3368 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB551BC94E3900DB3368 /* PlaySoundsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		EA68DB581BC962BC00DB3368 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA68DB571BC962BC00DB3368 /* movie_quote.mp3 */; settings = {ASSET_TAGS = (); }; };
+		EA68DB5A1BC9A3A200DB3368 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA68DB591BC9A3A200DB3368 /* RecordedAudio.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA68DB401BC9382300DB3368 /* Darth Vader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Darth Vader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA68DB431BC9382300DB3368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA68DB451BC9382300DB3368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA68DB451BC9382300DB3368 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		EA68DB481BC9382300DB3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA68DB4A1BC9382300DB3368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA68DB4D1BC9382300DB3368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA68DB4F1BC9382300DB3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA68DB551BC94E3900DB3368 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		EA68DB571BC962BC00DB3368 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		EA68DB591BC9A3A200DB3368 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EA68DB431BC9382300DB3368 /* AppDelegate.swift */,
-				EA68DB451BC9382300DB3368 /* ViewController.swift */,
+				EA68DB451BC9382300DB3368 /* RecordSoundsViewController.swift */,
+				EA68DB591BC9A3A200DB3368 /* RecordedAudio.swift */,
 				EA68DB471BC9382300DB3368 /* Main.storyboard */,
 				EA68DB551BC94E3900DB3368 /* PlaySoundsViewController.swift */,
 				EA68DB571BC962BC00DB3368 /* movie_quote.mp3 */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA68DB461BC9382300DB3368 /* ViewController.swift in Sources */,
+				EA68DB5A1BC9A3A200DB3368 /* RecordedAudio.swift in Sources */,
+				EA68DB461BC9382300DB3368 /* RecordSoundsViewController.swift in Sources */,
 				EA68DB561BC94E3900DB3368 /* PlaySoundsViewController.swift in Sources */,
 				EA68DB441BC9382300DB3368 /* AppDelegate.swift in Sources */,
 			);

@@ -8,7 +8,7 @@
         <!--Record-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Darth_Vader" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RecordSoundsViewController" customModule="Darth_Vader" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -35,7 +35,6 @@
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIK-g4-cOG"/>
-                                    <segue destination="Mlt-tj-Nul" kind="show" id="reT-cS-zIH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -53,6 +52,7 @@
                         <outlet property="recordButton" destination="pB5-bq-hKF" id="6uk-7r-3h4"/>
                         <outlet property="recordingInProgress" destination="os2-Ug-Uld" id="ibV-cs-oZy"/>
                         <outlet property="stopButton" destination="eGc-UK-UGk" id="fVU-rv-Soz"/>
+                        <segue destination="Mlt-tj-Nul" kind="show" identifier="stopRecording" id="g0t-N0-leE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
